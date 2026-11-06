@@ -1,5 +1,6 @@
 ﻿<Solution>
   <Project Path="AtomicRealm.WorldBuilder.csproj" />
+  <Project Path="Assembly-CSharp.csproj" />
   <Project Path="AtomicRealm.WorldBuilder.Guard.csproj" />
   <Project Path="AtomicRealm.WorldBuilder.Editor.csproj" />
 </Solution>
