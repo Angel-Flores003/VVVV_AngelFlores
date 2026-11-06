@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Robot 16p Antenna
+  m_Controller: {fileID: 9100000, guid: 9d8e90c1931fa5143a97e54d3df76231, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 4a95dfc8c3df5394eb95df39d6a08c7d, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 353fb571feb7ffa4fa33eb2297dbfb03, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 34c541f0d6bd4814aac12f7c27ef1b12, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: ae3b341e88fced5469441f7fed015209, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 48895cdbeeba5234e8311e45b36ee9bd, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: e9917a835cd91144fafafbe49b09377b, type: 2}

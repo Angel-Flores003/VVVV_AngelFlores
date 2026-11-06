@@ -1,0 +1,813 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8c74cd1a67bd8c4083876fa764d0b32, type: 3}
+  m_Name: Template Map 32p
+  m_EditorClassIdentifier: 
+  pairs:
+  - art: {fileID: 1844381223, guid: 40721ed57e3b43c4ebd84adcec2ae52a, type: 3}
+    template: {fileID: 488124376, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: 5902237920769144862, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: '-'
+    south: '-'
+    east: S
+    west: '-'
+  - art: {fileID: 23324079, guid: 40721ed57e3b43c4ebd84adcec2ae52a, type: 3}
+    template: {fileID: -600569029, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: 1048256143, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: '-'
+    south: '-'
+    east: S
+    west: S
+  - art: {fileID: 1446121017, guid: 40721ed57e3b43c4ebd84adcec2ae52a, type: 3}
+    template: {fileID: -467399649, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: 656245817, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: S
+    south: S
+    east: S
+    west: S
+  - art: {fileID: -611725079, guid: 40721ed57e3b43c4ebd84adcec2ae52a, type: 3}
+    template: {fileID: 95266022, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: -356530639, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: S
+    south: S
+    east: S
+    west: S
+  - art: {fileID: 325161221, guid: 40721ed57e3b43c4ebd84adcec2ae52a, type: 3}
+    template: {fileID: 494728408, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: 1679981388, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: S
+    south: S
+    east: S
+    west: '-'
+  - art: {fileID: 788195629, guid: 40721ed57e3b43c4ebd84adcec2ae52a, type: 3}
+    template: {fileID: -1845407660, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: 254304209, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: S
+    south: S
+    east: S
+    west: S
+  - art: {fileID: -802800205, guid: 40721ed57e3b43c4ebd84adcec2ae52a, type: 3}
+    template: {fileID: 84173457, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: -5076731, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: S
+    south: S
+    east: '-'
+    west: S
+  - art: {fileID: 406673107, guid: 40721ed57e3b43c4ebd84adcec2ae52a, type: 3}
+    template: {fileID: 957879675, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: -780011963, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: S
+    south: S
+    east: '-'
+    west: '-'
+  - art: {fileID: -869941937, guid: 40721ed57e3b43c4ebd84adcec2ae52a, type: 3}
+    template: {fileID: 1885602295, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: 404617948, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: S
+    south: S
+    east: S
+    west: S
+  - art: {fileID: -1335247322, guid: 40721ed57e3b43c4ebd84adcec2ae52a, type: 3}
+    template: {fileID: -1679028140, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: -1393625023, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: S
+    south: S
+    east: S
+    west: S
+  - art: {fileID: 1036454335, guid: 40721ed57e3b43c4ebd84adcec2ae52a, type: 3}
+    template: {fileID: 487372027, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: -846379147, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: S
+    south: '-'
+    east: S
+    west: '-'
+  - art: {fileID: -226408362, guid: 40721ed57e3b43c4ebd84adcec2ae52a, type: 3}
+    template: {fileID: 1075498456, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: -883846282, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: S
+    south: '-'
+    east: S
+    west: S
+  - art: {fileID: -740643586, guid: 40721ed57e3b43c4ebd84adcec2ae52a, type: 3}
+    template: {fileID: -546122337, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: -1429574839, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: '-'
+    south: '-'
+    east: '-'
+    west: S
+  - art: {fileID: 1142913599, guid: 40721ed57e3b43c4ebd84adcec2ae52a, type: 3}
+    template: {fileID: 2100981694, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: -1392470868, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: S
+    south: '-'
+    east: '-'
+    west: S
+  - art: {fileID: 893318364, guid: 40721ed57e3b43c4ebd84adcec2ae52a, type: 3}
+    template: {fileID: 2097067418, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: -1036987058, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: S
+    south: '-'
+    east: '-'
+    west: '-'
+  - art: {fileID: -1273771643, guid: 40721ed57e3b43c4ebd84adcec2ae52a, type: 3}
+    template: {fileID: -1144705672, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: -1136185940, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: S
+    south: S
+    east: S
+    west: S
+  - art: {fileID: 1895333964, guid: 40721ed57e3b43c4ebd84adcec2ae52a, type: 3}
+    template: {fileID: 267627766, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: 891449303, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: S
+    south: S
+    east: S
+    west: S
+  - art: {fileID: -215301886, guid: 40721ed57e3b43c4ebd84adcec2ae52a, type: 3}
+    template: {fileID: -33118343, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: -487583552, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: '-'
+    south: '-'
+    east: '-'
+    west: '-'
+  - art: {fileID: 1673120652, guid: 40721ed57e3b43c4ebd84adcec2ae52a, type: 3}
+    template: {fileID: -200452396, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: -1692493356, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: S
+    south: S
+    east: S
+    west: S
+  - art: {fileID: 45171476, guid: 40721ed57e3b43c4ebd84adcec2ae52a, type: 3}
+    template: {fileID: 2025809457, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: 416780582, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: S
+    south: S
+    east: S
+    west: S
+  - art: {fileID: -269007227, guid: 40721ed57e3b43c4ebd84adcec2ae52a, type: 3}
+    template: {fileID: -68846347, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: 1100543624, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: '-'
+    south: S
+    east: S
+    west: '-'
+  - art: {fileID: -784869109, guid: 40721ed57e3b43c4ebd84adcec2ae52a, type: 3}
+    template: {fileID: 274629966, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: 1111124088, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: '-'
+    south: S
+    east: S
+    west: S
+  - art: {fileID: 2144299256, guid: 40721ed57e3b43c4ebd84adcec2ae52a, type: 3}
+    template: {fileID: 1673851973, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: -1507057561, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: '-'
+    south: S
+    east: '-'
+    west: S
+  - art: {fileID: 2008295550, guid: 40721ed57e3b43c4ebd84adcec2ae52a, type: 3}
+    template: {fileID: -1028572640, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: -1359217691, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: '-'
+    south: S
+    east: '-'
+    west: '-'
+  - art: {fileID: -2083466176, guid: 4388757942288a241852b61eac2f7998, type: 3}
+    template: {fileID: 488124376, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: 5902237920769144862, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: '-'
+    south: '-'
+    east: S
+    west: '-'
+  - art: {fileID: -1268752637, guid: 4388757942288a241852b61eac2f7998, type: 3}
+    template: {fileID: -600569029, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: 1048256143, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: '-'
+    south: '-'
+    east: S
+    west: S
+  - art: {fileID: 1423936306, guid: 4388757942288a241852b61eac2f7998, type: 3}
+    template: {fileID: -467399649, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: 656245817, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: S
+    south: S
+    east: S
+    west: S
+  - art: {fileID: 1658707015, guid: 4388757942288a241852b61eac2f7998, type: 3}
+    template: {fileID: 95266022, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: -356530639, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: S
+    south: S
+    east: S
+    west: S
+  - art: {fileID: -959442688, guid: 4388757942288a241852b61eac2f7998, type: 3}
+    template: {fileID: 494728408, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: 1679981388, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: S
+    south: S
+    east: S
+    west: '-'
+  - art: {fileID: -1905517826, guid: 4388757942288a241852b61eac2f7998, type: 3}
+    template: {fileID: -1845407660, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: 254304209, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: S
+    south: S
+    east: S
+    west: S
+  - art: {fileID: 862903860, guid: 4388757942288a241852b61eac2f7998, type: 3}
+    template: {fileID: 84173457, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: -5076731, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: S
+    south: S
+    east: '-'
+    west: S
+  - art: {fileID: 42707982, guid: 4388757942288a241852b61eac2f7998, type: 3}
+    template: {fileID: 957879675, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: -780011963, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: S
+    south: S
+    east: '-'
+    west: '-'
+  - art: {fileID: 1260669372, guid: 4388757942288a241852b61eac2f7998, type: 3}
+    template: {fileID: 1885602295, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: 404617948, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: S
+    south: S
+    east: S
+    west: S
+  - art: {fileID: -1289322983, guid: 4388757942288a241852b61eac2f7998, type: 3}
+    template: {fileID: -1679028140, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: -1393625023, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: S
+    south: S
+    east: S
+    west: S
+  - art: {fileID: 319669318, guid: 4388757942288a241852b61eac2f7998, type: 3}
+    template: {fileID: 487372027, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: -846379147, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: S
+    south: '-'
+    east: S
+    west: '-'
+  - art: {fileID: -2075315522, guid: 4388757942288a241852b61eac2f7998, type: 3}
+    template: {fileID: 1075498456, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: -883846282, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: S
+    south: '-'
+    east: S
+    west: S
+  - art: {fileID: 608225543, guid: 4388757942288a241852b61eac2f7998, type: 3}
+    template: {fileID: -546122337, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: -1429574839, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: '-'
+    south: '-'
+    east: '-'
+    west: S
+  - art: {fileID: -258932435, guid: 4388757942288a241852b61eac2f7998, type: 3}
+    template: {fileID: 2100981694, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: -1392470868, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: S
+    south: '-'
+    east: '-'
+    west: S
+  - art: {fileID: 597594723, guid: 4388757942288a241852b61eac2f7998, type: 3}
+    template: {fileID: 2097067418, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: -1036987058, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: S
+    south: '-'
+    east: '-'
+    west: '-'
+  - art: {fileID: 398874949, guid: 4388757942288a241852b61eac2f7998, type: 3}
+    template: {fileID: -1144705672, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: -1136185940, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: S
+    south: S
+    east: S
+    west: S
+  - art: {fileID: -919911431, guid: 4388757942288a241852b61eac2f7998, type: 3}
+    template: {fileID: 267627766, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: 891449303, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: S
+    south: S
+    east: S
+    west: S
+  - art: {fileID: -1279002544, guid: 4388757942288a241852b61eac2f7998, type: 3}
+    template: {fileID: -33118343, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: -487583552, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: '-'
+    south: '-'
+    east: '-'
+    west: '-'
+  - art: {fileID: -2029329467, guid: 4388757942288a241852b61eac2f7998, type: 3}
+    template: {fileID: -200452396, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: -1692493356, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: S
+    south: S
+    east: S
+    west: S
+  - art: {fileID: -981113328, guid: 4388757942288a241852b61eac2f7998, type: 3}
+    template: {fileID: 2025809457, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: 416780582, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: S
+    south: S
+    east: S
+    west: S
+  - art: {fileID: 1725617713, guid: 4388757942288a241852b61eac2f7998, type: 3}
+    template: {fileID: -68846347, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: 1100543624, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: '-'
+    south: S
+    east: S
+    west: '-'
+  - art: {fileID: 1068463540, guid: 4388757942288a241852b61eac2f7998, type: 3}
+    template: {fileID: 274629966, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: 1111124088, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: '-'
+    south: S
+    east: S
+    west: S
+  - art: {fileID: -1332653368, guid: 4388757942288a241852b61eac2f7998, type: 3}
+    template: {fileID: 1673851973, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: -1507057561, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: '-'
+    south: S
+    east: '-'
+    west: S
+  - art: {fileID: -11272194, guid: 4388757942288a241852b61eac2f7998, type: 3}
+    template: {fileID: -1028572640, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: -1359217691, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: '-'
+    south: S
+    east: '-'
+    west: '-'
+  - art: {fileID: 818640299499829810, guid: 9832cde192c50f04189a0f7bef191048, type: 3}
+    template: {fileID: 488124376, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: 5902237920769144862, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: '-'
+    south: '-'
+    east: S
+    west: '-'
+  - art: {fileID: -2071546031, guid: 9832cde192c50f04189a0f7bef191048, type: 3}
+    template: {fileID: -600569029, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: 1048256143, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: '-'
+    south: '-'
+    east: S
+    west: S
+  - art: {fileID: -208157862, guid: 9832cde192c50f04189a0f7bef191048, type: 3}
+    template: {fileID: -467399649, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: 656245817, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: S
+    south: S
+    east: S
+    west: S
+  - art: {fileID: -2067376, guid: 9832cde192c50f04189a0f7bef191048, type: 3}
+    template: {fileID: 95266022, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: -356530639, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: S
+    south: S
+    east: S
+    west: S
+  - art: {fileID: -1576948563, guid: 9832cde192c50f04189a0f7bef191048, type: 3}
+    template: {fileID: 494728408, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: 1679981388, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: S
+    south: S
+    east: S
+    west: '-'
+  - art: {fileID: -649596366, guid: 9832cde192c50f04189a0f7bef191048, type: 3}
+    template: {fileID: -1845407660, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: 254304209, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: S
+    south: S
+    east: S
+    west: S
+  - art: {fileID: 398807757, guid: 9832cde192c50f04189a0f7bef191048, type: 3}
+    template: {fileID: 84173457, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: -5076731, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: S
+    south: S
+    east: '-'
+    west: S
+  - art: {fileID: 964481961, guid: 9832cde192c50f04189a0f7bef191048, type: 3}
+    template: {fileID: 957879675, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: -780011963, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: S
+    south: S
+    east: '-'
+    west: '-'
+  - art: {fileID: -934673402, guid: 9832cde192c50f04189a0f7bef191048, type: 3}
+    template: {fileID: 1885602295, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: 404617948, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: S
+    south: S
+    east: S
+    west: S
+  - art: {fileID: -670695256, guid: 9832cde192c50f04189a0f7bef191048, type: 3}
+    template: {fileID: -1679028140, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: -1393625023, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: S
+    south: S
+    east: S
+    west: S
+  - art: {fileID: 1902013719, guid: 9832cde192c50f04189a0f7bef191048, type: 3}
+    template: {fileID: 487372027, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: -846379147, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: S
+    south: '-'
+    east: S
+    west: '-'
+  - art: {fileID: 1148202668, guid: 9832cde192c50f04189a0f7bef191048, type: 3}
+    template: {fileID: 1075498456, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: -883846282, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: S
+    south: '-'
+    east: S
+    west: S
+  - art: {fileID: 1273292261, guid: 9832cde192c50f04189a0f7bef191048, type: 3}
+    template: {fileID: -546122337, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: -1429574839, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: '-'
+    south: '-'
+    east: '-'
+    west: S
+  - art: {fileID: -1372867795, guid: 9832cde192c50f04189a0f7bef191048, type: 3}
+    template: {fileID: 2100981694, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: -1392470868, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: S
+    south: '-'
+    east: '-'
+    west: S
+  - art: {fileID: -212331319, guid: 9832cde192c50f04189a0f7bef191048, type: 3}
+    template: {fileID: 2097067418, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: -1036987058, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: S
+    south: '-'
+    east: '-'
+    west: '-'
+  - art: {fileID: -1120960671, guid: 9832cde192c50f04189a0f7bef191048, type: 3}
+    template: {fileID: -1144705672, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: -1136185940, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: S
+    south: S
+    east: S
+    west: S
+  - art: {fileID: -746822314, guid: 9832cde192c50f04189a0f7bef191048, type: 3}
+    template: {fileID: 267627766, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: 891449303, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: S
+    south: S
+    east: S
+    west: S
+  - art: {fileID: -145955465, guid: 9832cde192c50f04189a0f7bef191048, type: 3}
+    template: {fileID: -33118343, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: -487583552, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: '-'
+    south: '-'
+    east: '-'
+    west: '-'
+  - art: {fileID: 609619798, guid: 9832cde192c50f04189a0f7bef191048, type: 3}
+    template: {fileID: -200452396, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: -1692493356, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: S
+    south: S
+    east: S
+    west: S
+  - art: {fileID: -1932791343, guid: 9832cde192c50f04189a0f7bef191048, type: 3}
+    template: {fileID: 2025809457, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: 416780582, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: S
+    south: S
+    east: S
+    west: S
+  - art: {fileID: -141431323, guid: 9832cde192c50f04189a0f7bef191048, type: 3}
+    template: {fileID: -68846347, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: 1100543624, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: '-'
+    south: S
+    east: S
+    west: '-'
+  - art: {fileID: -469839686, guid: 9832cde192c50f04189a0f7bef191048, type: 3}
+    template: {fileID: 274629966, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: 1111124088, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: '-'
+    south: S
+    east: S
+    west: S
+  - art: {fileID: -590173558, guid: 9832cde192c50f04189a0f7bef191048, type: 3}
+    template: {fileID: 1673851973, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: -1507057561, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: '-'
+    south: S
+    east: '-'
+    west: S
+  - art: {fileID: 1573727219, guid: 9832cde192c50f04189a0f7bef191048, type: 3}
+    template: {fileID: -1028572640, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: -1359217691, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: '-'
+    south: S
+    east: '-'
+    west: '-'
+  - art: {fileID: -710902107376744401, guid: f43c6893991760e42b2e1b8158a6372a, type: 3}
+    template: {fileID: 488124376, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: 5902237920769144862, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: '-'
+    south: '-'
+    east: S
+    west: '-'
+  - art: {fileID: -519545255, guid: f43c6893991760e42b2e1b8158a6372a, type: 3}
+    template: {fileID: -600569029, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: 1048256143, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: '-'
+    south: '-'
+    east: S
+    west: S
+  - art: {fileID: 1100742567, guid: f43c6893991760e42b2e1b8158a6372a, type: 3}
+    template: {fileID: -467399649, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: 656245817, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: S
+    south: S
+    east: S
+    west: S
+  - art: {fileID: -616669277, guid: f43c6893991760e42b2e1b8158a6372a, type: 3}
+    template: {fileID: 95266022, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: -356530639, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: S
+    south: S
+    east: S
+    west: S
+  - art: {fileID: 736201202, guid: f43c6893991760e42b2e1b8158a6372a, type: 3}
+    template: {fileID: 494728408, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: 1679981388, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: S
+    south: S
+    east: S
+    west: '-'
+  - art: {fileID: -457241289, guid: f43c6893991760e42b2e1b8158a6372a, type: 3}
+    template: {fileID: -1845407660, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: 254304209, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: S
+    south: S
+    east: S
+    west: S
+  - art: {fileID: -572102357, guid: f43c6893991760e42b2e1b8158a6372a, type: 3}
+    template: {fileID: 84173457, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: -5076731, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: S
+    south: S
+    east: '-'
+    west: S
+  - art: {fileID: 737852086, guid: f43c6893991760e42b2e1b8158a6372a, type: 3}
+    template: {fileID: 957879675, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: -780011963, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: S
+    south: S
+    east: '-'
+    west: '-'
+  - art: {fileID: -513426994, guid: f43c6893991760e42b2e1b8158a6372a, type: 3}
+    template: {fileID: 1885602295, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: 404617948, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: S
+    south: S
+    east: S
+    west: S
+  - art: {fileID: -944416473, guid: f43c6893991760e42b2e1b8158a6372a, type: 3}
+    template: {fileID: -1679028140, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: -1393625023, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: S
+    south: S
+    east: S
+    west: S
+  - art: {fileID: -2090839623, guid: f43c6893991760e42b2e1b8158a6372a, type: 3}
+    template: {fileID: 487372027, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: -846379147, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: S
+    south: '-'
+    east: S
+    west: '-'
+  - art: {fileID: -1392302396, guid: f43c6893991760e42b2e1b8158a6372a, type: 3}
+    template: {fileID: 1075498456, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: -883846282, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: S
+    south: '-'
+    east: S
+    west: S
+  - art: {fileID: 1892145448, guid: f43c6893991760e42b2e1b8158a6372a, type: 3}
+    template: {fileID: -546122337, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: -1429574839, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: '-'
+    south: '-'
+    east: '-'
+    west: S
+  - art: {fileID: -309336350, guid: f43c6893991760e42b2e1b8158a6372a, type: 3}
+    template: {fileID: 2100981694, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: -1392470868, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: S
+    south: '-'
+    east: '-'
+    west: S
+  - art: {fileID: -16565629, guid: f43c6893991760e42b2e1b8158a6372a, type: 3}
+    template: {fileID: 2097067418, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: -1036987058, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: S
+    south: '-'
+    east: '-'
+    west: '-'
+  - art: {fileID: 881454427, guid: f43c6893991760e42b2e1b8158a6372a, type: 3}
+    template: {fileID: -1144705672, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: -1136185940, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: S
+    south: S
+    east: S
+    west: S
+  - art: {fileID: 644675286, guid: f43c6893991760e42b2e1b8158a6372a, type: 3}
+    template: {fileID: 267627766, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: 891449303, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: S
+    south: S
+    east: S
+    west: S
+  - art: {fileID: -1652834456, guid: f43c6893991760e42b2e1b8158a6372a, type: 3}
+    template: {fileID: -33118343, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: -487583552, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: '-'
+    south: '-'
+    east: '-'
+    west: '-'
+  - art: {fileID: -1158097169, guid: f43c6893991760e42b2e1b8158a6372a, type: 3}
+    template: {fileID: -200452396, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: -1692493356, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: S
+    south: S
+    east: S
+    west: S
+  - art: {fileID: -602402234, guid: f43c6893991760e42b2e1b8158a6372a, type: 3}
+    template: {fileID: 2025809457, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: 416780582, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: S
+    south: S
+    east: S
+    west: S
+  - art: {fileID: -1807853410, guid: f43c6893991760e42b2e1b8158a6372a, type: 3}
+    template: {fileID: -68846347, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: 1100543624, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: '-'
+    south: S
+    east: S
+    west: '-'
+  - art: {fileID: -1290039710, guid: f43c6893991760e42b2e1b8158a6372a, type: 3}
+    template: {fileID: 274629966, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: 1111124088, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: '-'
+    south: S
+    east: S
+    west: S
+  - art: {fileID: 1109851064, guid: f43c6893991760e42b2e1b8158a6372a, type: 3}
+    template: {fileID: 1673851973, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: -1507057561, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: '-'
+    south: S
+    east: '-'
+    west: S
+  - art: {fileID: -92393179, guid: f43c6893991760e42b2e1b8158a6372a, type: 3}
+    template: {fileID: -1028572640, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: -1359217691, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: '-'
+    south: S
+    east: '-'
+    west: '-'
+  - art: {fileID: -1790727063, guid: e2c6bd2321ef94447b45ee96bbd8bfbb, type: 3}
+    template: {fileID: 494728408, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: 1679981388, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: S
+    south: S
+    east: S
+    west: '-'
+  - art: {fileID: 1935207971, guid: e2c6bd2321ef94447b45ee96bbd8bfbb, type: 3}
+    template: {fileID: -1845407660, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: 254304209, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: S
+    south: S
+    east: S
+    west: S
+  - art: {fileID: 690180927, guid: e2c6bd2321ef94447b45ee96bbd8bfbb, type: 3}
+    template: {fileID: 84173457, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: -5076731, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: S
+    south: S
+    east: '-'
+    west: S
+  - art: {fileID: -1528556419, guid: e2c6bd2321ef94447b45ee96bbd8bfbb, type: 3}
+    template: {fileID: 487372027, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: -846379147, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: S
+    south: '-'
+    east: S
+    west: '-'
+  - art: {fileID: 731671080, guid: e2c6bd2321ef94447b45ee96bbd8bfbb, type: 3}
+    template: {fileID: 1075498456, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: -883846282, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: S
+    south: '-'
+    east: S
+    west: S
+  - art: {fileID: -1239985913, guid: e2c6bd2321ef94447b45ee96bbd8bfbb, type: 3}
+    template: {fileID: 2100981694, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: -1392470868, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: S
+    south: '-'
+    east: '-'
+    west: S
+  - art: {fileID: -1406248099, guid: e2c6bd2321ef94447b45ee96bbd8bfbb, type: 3}
+    template: {fileID: -68846347, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: 1100543624, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: '-'
+    south: S
+    east: S
+    west: '-'
+  - art: {fileID: -427906734, guid: e2c6bd2321ef94447b45ee96bbd8bfbb, type: 3}
+    template: {fileID: 274629966, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: 1111124088, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: '-'
+    south: S
+    east: S
+    west: S
+  - art: {fileID: -2079396366, guid: e2c6bd2321ef94447b45ee96bbd8bfbb, type: 3}
+    template: {fileID: 1673851973, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: -1507057561, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: '-'
+    south: S
+    east: '-'
+    west: S
+  - art: {fileID: -721087543, guid: 17852ff975729844090228f368b004a5, type: 3}
+    template: {fileID: 494728408, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: 1679981388, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: S
+    south: S
+    east: S
+    west: '-'
+  - art: {fileID: -1867905272, guid: 17852ff975729844090228f368b004a5, type: 3}
+    template: {fileID: -1845407660, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: 254304209, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: S
+    south: S
+    east: S
+    west: S
+  - art: {fileID: 1221733571, guid: 17852ff975729844090228f368b004a5, type: 3}
+    template: {fileID: 84173457, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: -5076731, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: S
+    south: S
+    east: '-'
+    west: S
+  - art: {fileID: 442878139, guid: 17852ff975729844090228f368b004a5, type: 3}
+    template: {fileID: 487372027, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: -846379147, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: S
+    south: '-'
+    east: S
+    west: '-'
+  - art: {fileID: 1648072340, guid: 17852ff975729844090228f368b004a5, type: 3}
+    template: {fileID: 1075498456, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: -883846282, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: S
+    south: '-'
+    east: S
+    west: S
+  - art: {fileID: -987481688, guid: 17852ff975729844090228f368b004a5, type: 3}
+    template: {fileID: 2100981694, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: -1392470868, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: S
+    south: '-'
+    east: '-'
+    west: S
+  - art: {fileID: 683771133, guid: 17852ff975729844090228f368b004a5, type: 3}
+    template: {fileID: -68846347, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: 1100543624, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: '-'
+    south: S
+    east: S
+    west: '-'
+  - art: {fileID: 561303428, guid: 17852ff975729844090228f368b004a5, type: 3}
+    template: {fileID: 274629966, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: 1111124088, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: '-'
+    south: S
+    east: S
+    west: S
+  - art: {fileID: -1524535738, guid: 17852ff975729844090228f368b004a5, type: 3}
+    template: {fileID: 1673851973, guid: 16b1551801d5c234d8c63740846db152, type: 3}
+    broken: {fileID: -1507057561, guid: 1b2091f51e28a9545b0c24b0e02db7d7, type: 3}
+    north: '-'
+    south: S
+    east: '-'
+    west: S

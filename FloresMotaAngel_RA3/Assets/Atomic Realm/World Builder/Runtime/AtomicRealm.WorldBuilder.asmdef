@@ -1,0 +1,17 @@
+{
+    "name": "AtomicRealm.WorldBuilder",
+    "rootNamespace": "AtomicRealm.WorldBuilder",
+    "references": [
+        "Unity.2D.Tilemap.Extras",
+        "Unity.InputSystem"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

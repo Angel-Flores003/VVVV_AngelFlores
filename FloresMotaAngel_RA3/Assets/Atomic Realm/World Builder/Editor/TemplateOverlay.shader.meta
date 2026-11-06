@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: cae4f92259e83bb49a9db7257474fd52
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 418542
+  packageName: Industrial Tileset - Free
+  packageVersion: 1.0.0
+  assetPath: Assets/Atomic Realm/World Builder/Editor/TemplateOverlay.shader
+  uploadId: 1023692
