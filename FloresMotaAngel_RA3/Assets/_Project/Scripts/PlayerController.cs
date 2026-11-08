@@ -92,7 +92,7 @@ public class PlayerController : MonoBehaviour, InputSystem_Actions.IPlayerVActio
 	{
 		if (collision.transform.CompareTag("Spikes"))
 		{
-
+			Debug.Log("Te has pinchado");
 		}
 	}
 }
