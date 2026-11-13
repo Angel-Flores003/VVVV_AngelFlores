@@ -1,7 +1,7 @@
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
-{/*
+{
     public static GameManager instance;
     private AudioSource audioSource;
 
@@ -28,5 +28,4 @@ public class GameManager : MonoBehaviour
         audioSource.clip = clip;
         audioSource.Play();
     }
-    */
 }

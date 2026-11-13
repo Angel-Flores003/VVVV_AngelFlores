@@ -13,7 +13,8 @@ public class PlayerController : MonoBehaviour, InputSystem_Actions.IPlayerVActio
 	private Animator animator;
 	private bool isGravityFlipped;
 
-	void Start()
+
+    void Start()
 	{
 		move = InputSystem.actions.FindAction("Move");
 		jump = InputSystem.actions.FindAction("Jump");
@@ -79,7 +80,7 @@ public class PlayerController : MonoBehaviour, InputSystem_Actions.IPlayerVActio
 		RaycastHit2D hit = Physics2D.Raycast(transform.position, rayDirection, rayLength, groundLayer);
 
 		return hit;
-	}
+    }
 
 	void FlipGravity()
 	{
