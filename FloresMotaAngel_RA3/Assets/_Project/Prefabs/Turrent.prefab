@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5834453133855892463}
+  - component: {fileID: 9049874093556759740}
   m_Layer: 0
   m_Name: BulletSpwan
   m_TagString: Untagged
@@ -31,6 +32,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 965911139130395456}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9049874093556759740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3548852789314815514}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 827220ca8c6e880499b3ea36aae0b406, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spawner
+  pool: {fileID: 6974002981626878815}
+  spawnerInterval: 1
 --- !u!1 &6659499287371478758
 GameObject:
   m_ObjectHideFlags: 0
@@ -42,7 +57,7 @@ GameObject:
   - component: {fileID: 965911139130395456}
   - component: {fileID: 4197986370553476788}
   - component: {fileID: 417643064785772565}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Turrent
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -63,6 +78,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5834453133855892463}
+  - {fileID: 8465052247786945060}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -45}
 --- !u!212 &4197986370553476788
@@ -138,5 +154,56 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SmartTurret
   player: {fileID: 3367199928575714519, guid: f035f51f01d1ac74c8419f1f1810990b, type: 3}
   bulletPref: {fileID: 5938166217735265017, guid: 0ffe69cc2618261489bc83497c0d7165, type: 3}
-  visionRange: 100000
+  firePoint: {fileID: 5834453133855892463}
+  pool: {fileID: 6974002981626878815}
+  visionRange: 5
   bulletSpeed: 10
+  obstacleLayer:
+    serializedVersion: 2
+    m_Bits: 8
+--- !u!1 &9168943225007456740
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8465052247786945060}
+  - component: {fileID: 6974002981626878815}
+  m_Layer: 0
+  m_Name: BulletPool
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8465052247786945060
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9168943225007456740}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 965911139130395456}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6974002981626878815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9168943225007456740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a0290bb69b6b084c84cc68e777cab74, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjectPool
+  prefab: {fileID: 5938166217735265017, guid: 0ffe69cc2618261489bc83497c0d7165, type: 3}
+  initialSize: 10

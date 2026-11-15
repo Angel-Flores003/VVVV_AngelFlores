@@ -7,6 +7,7 @@ public class UIManager : MonoBehaviour
     [SerializeField] private AudioSource audioSource;
     public void StartGame()
     {
+        Time.timeScale = 1f;
         SceneManager.LoadScene("Scene1");
     }
 

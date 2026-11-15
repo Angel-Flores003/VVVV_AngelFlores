@@ -28,7 +28,7 @@ public class PlayerController : MonoBehaviour, InputSystem_Actions.IPlayerVActio
 
 	void Update()
 	{
-		Vector2 vec = move.ReadValue<Vector2>();
+        Vector2 vec = move.ReadValue<Vector2>();
 		Vector3 dir = new Vector3(vec.x, 0, vec.y);
 		//mov
 		transform.Translate(dir * 10 * Time.deltaTime);
@@ -41,8 +41,9 @@ public class PlayerController : MonoBehaviour, InputSystem_Actions.IPlayerVActio
 		{
 			spriteRenderer.flipX = true;
 		}
-		//animation
-		animator.SetFloat("speed", Mathf.Abs(vec.x));
+
+        //animation
+        animator.SetFloat("speed", Mathf.Abs(vec.x));
 	}
 
 	private void OnEnable()
@@ -65,6 +66,7 @@ public class PlayerController : MonoBehaviour, InputSystem_Actions.IPlayerVActio
 	{
 		if (!context.performed) return;
 	}
+
 	public void OnJump(InputAction.CallbackContext context)
 	{
 		if (!context.performed) return;
@@ -73,7 +75,6 @@ public class PlayerController : MonoBehaviour, InputSystem_Actions.IPlayerVActio
 		{
 			FlipGravity();
 			SoundManager.Instance.PlaySound(jumpSound);
-
         }
 	}
 

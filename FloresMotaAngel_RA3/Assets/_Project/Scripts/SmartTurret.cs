@@ -14,7 +14,12 @@ public class SmartTurret : MonoBehaviour
 
     void Update()
     {
-        if (player == null) return;
+        GameObject playerObject = GameObject.FindGameObjectWithTag("Player");
+
+        if (playerObject == null)
+            return;
+
+        player = playerObject.transform;
 
         Vector2 direction = (player.position - transform.position).normalized;
         float distance = Vector2.Distance(transform.position, player.position);
@@ -28,7 +33,7 @@ public class SmartTurret : MonoBehaviour
             return;
         }
 
-        RaycastHit2D hit = Physics2D.Raycast(transform.position, direction, obstacleLayer);
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, direction, distance, obstacleLayer);
 
         if (hit.collider != null)
         {
@@ -38,6 +43,10 @@ public class SmartTurret : MonoBehaviour
 
         // Girar hacia el jugador
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+
+        // Corregimos la orientación original del sprite
+        angle -= 45f;
+
         transform.rotation = Quaternion.Euler(0f, 0f, angle);
 
         // Disparar cada segundo

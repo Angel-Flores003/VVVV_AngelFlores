@@ -44,15 +44,11 @@ public class LifeLose : MonoBehaviour
 
     private void GameOver()
     {
-        //IsGameOver = true;
         SceneManager.LoadScene("Menu_Dead");
-        //Time.timeScale = 0;
     }
 
     public void RestartGame()
     {
-        //Time.timeScale = 1;
-        //IsGameOver = false;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }

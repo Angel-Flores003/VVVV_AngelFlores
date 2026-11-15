@@ -6,11 +6,13 @@ public class TimedObject : MonoBehaviour
 
     private ObjectPool pool;
     private float timer;
+    private bool returned = false;
 
-    public void SetPool(ObjectPool newpool)
+    public void SetPool(ObjectPool newPool)
     {
-        pool = newpool;
+        pool = newPool;
         timer = 0f;
+        returned = false;
     }
 
     private void Update()
@@ -19,7 +21,25 @@ public class TimedObject : MonoBehaviour
 
         if (timer >= lifeTime)
         {
-            pool.ReturnObject(gameObject);
+            ReturnToPool();
         }
+    }
+
+    public void ReturnToPool()
+    {
+        if (returned || pool == null)
+            return;
+
+        returned = true;
+
+        Rigidbody2D rb = GetComponent<Rigidbody2D>();
+
+        if (rb != null)
+        {
+            rb.linearVelocity = Vector2.zero;
+            rb.angularVelocity = 0f;
+        }
+
+        pool.ReturnObject(gameObject);
     }
 }

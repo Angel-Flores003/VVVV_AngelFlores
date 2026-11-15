@@ -37,7 +37,7 @@ public class ObjectPool : MonoBehaviour
             objectToUse = CreateNewObject();
         }
 
-        objectToUse.transform.localPosition = position;
+        objectToUse.transform.position = position;
         objectToUse.SetActive(true);
         return objectToUse;
     }
