@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -36,8 +37,7 @@ public class ObjectPool : MonoBehaviour
             objectToUse = CreateNewObject();
         }
 
-        //objectToUse.transform.localPosition = position;
-        objectToUse.transform.position = position;
+        objectToUse.transform.localPosition = position;
         objectToUse.SetActive(true);
         return objectToUse;
     }

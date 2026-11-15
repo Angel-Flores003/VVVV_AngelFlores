@@ -6,8 +6,6 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
-    //private AudioSource audioSource;
-
     [SerializeField] private GameObject[] checkPoints;
     [SerializeField] private GameObject playerPrefab;
 
@@ -19,7 +17,7 @@ public class GameManager : MonoBehaviour
         if (Instance == null)
         {
             Instance = this;
-            DontDestroyOnLoad(gameObject);
+            //DontDestroyOnLoad(gameObject);
             
             checkPoints = GameObject.FindGameObjectsWithTag("CheckPoints");
             indexCheckPoints = PlayerPrefs.GetInt("IndexPoints", 0);
@@ -31,22 +29,10 @@ public class GameManager : MonoBehaviour
             Destroy(gameObject);
     }
 
-    /*void Start()
-    {
-        audioSource = GetComponent<AudioSource>();
-    }*/
-
-    /*public void PlaySound(AudioClip clip)
-    {
-        audioSource.clip = clip;
-        audioSource.Play();
-    }*/
-
     private void Update()
     {
         if (currentPlayer == null)
         {
-            //Thread.Sleep(1000);
             GameEvents.ZoneChange(0);
             SpawnPlayer();
         }

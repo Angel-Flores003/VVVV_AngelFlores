@@ -15,7 +15,9 @@ public class Parallax : MonoBehaviour
 
 	void Update()
 	{
-		float delatx = player.position.x - Playerx;
+        if (player == null) return;
+
+        float delatx = player.position.x - Playerx;
 		parallaxMaterial.mainTextureOffset += new Vector2(delatx * parallaxMultiplier, 0);
 		Playerx = player.position.x;
 	}

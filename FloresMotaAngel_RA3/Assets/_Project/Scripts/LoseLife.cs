@@ -37,20 +37,22 @@ public class LifeLose : MonoBehaviour
     }
     private void UpdateUI()
     {
+        if (lifes < 0)
+            lifesText.text = "Vides: 0";
         lifesText.text = "Vides: " + lifes;
     }
 
     private void GameOver()
     {
-        IsGameOver = true;
+        //IsGameOver = true;
         SceneManager.LoadScene("Menu_Dead");
-        Time.timeScale = 0;
+        //Time.timeScale = 0;
     }
 
     public void RestartGame()
     {
-        Time.timeScale = 1;
-        IsGameOver = false;
+        //Time.timeScale = 1;
+        //IsGameOver = false;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }
