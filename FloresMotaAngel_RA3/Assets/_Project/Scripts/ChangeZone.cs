@@ -18,7 +18,7 @@ public class ChangeZone : MonoBehaviour
 	{
 		if (collision.CompareTag("Player"))
 		{
-			GameEvents.ZoneChange(zone);
+			GameEvents.ZoneChange(zone);//Avisa
 		}
 	}
 }

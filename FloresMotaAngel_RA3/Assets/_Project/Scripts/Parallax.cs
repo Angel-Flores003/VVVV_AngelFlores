@@ -12,10 +12,17 @@ public class Parallax : MonoBehaviour
 		parallaxMaterial = GetComponent<Renderer>().material;
 		Playerx = player.position.x;
 	}
+
 	void Update()
 	{
 		float delatx = player.position.x - Playerx;
 		parallaxMaterial.mainTextureOffset += new Vector2(delatx * parallaxMultiplier, 0);
 		Playerx = player.position.x;
 	}
+
+    public void SetPlayer(Transform newPlayer)
+    {
+        player = newPlayer;
+        Playerx = player.position.x;
+    }
 }

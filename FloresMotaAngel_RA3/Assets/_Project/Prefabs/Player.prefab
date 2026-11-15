@@ -87,7 +87,7 @@ SpriteRenderer:
   m_MaskInteraction: 0
   m_Sprite: {fileID: 8793639957104055765, guid: 245198efcd2c9fc4e8de28d12cc52c67, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
+  m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 2.875, y: 3.4375}
@@ -134,6 +134,7 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 8
+  jumpSound: {fileID: 8300000, guid: be7ddf94ad813e84097ff99b48819222, type: 3}
 --- !u!50 &8568600776012246380
 Rigidbody2D:
   serializedVersion: 5

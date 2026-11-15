@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4858580432692141416}
   - component: {fileID: 1456563252585424725}
   - component: {fileID: 3878687754542279225}
+  - component: {fileID: -4606626818713583751}
   m_Layer: 0
   m_Name: Spike
   m_TagString: Spikes
@@ -138,3 +139,15 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.937891, y: 0.4184332}
   m_EdgeRadius: 0
+--- !u!114 &-4606626818713583751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 413863980397719033}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4f64320232de6f48b5e51538372bd1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spike

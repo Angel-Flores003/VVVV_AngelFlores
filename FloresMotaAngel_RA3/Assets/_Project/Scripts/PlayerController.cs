@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -12,7 +13,7 @@ public class PlayerController : MonoBehaviour, InputSystem_Actions.IPlayerVActio
 	public LayerMask groundLayer;
 	private Animator animator;
 	private bool isGravityFlipped;
-
+	[SerializeField] private AudioClip jumpSound;
 
     void Start()
 	{
@@ -71,7 +72,9 @@ public class PlayerController : MonoBehaviour, InputSystem_Actions.IPlayerVActio
 		if (IsGrounded() && jump.WasPressedThisFrame())
 		{
 			FlipGravity();
-		}
+			SoundManager.Instance.PlaySound(jumpSound);
+
+        }
 	}
 
 	bool IsGrounded()
@@ -87,13 +90,5 @@ public class PlayerController : MonoBehaviour, InputSystem_Actions.IPlayerVActio
 		isGravityFlipped = !isGravityFlipped;
 		rb.gravityScale *= -1;
 		spriteRenderer.flipY = isGravityFlipped;
-	}
-
-	private void OnTriggerEnter2D(Collider2D collision)
-	{
-		if (collision.transform.CompareTag("Spikes"))
-		{
-			Debug.Log("Te has pinchado");
-		}
 	}
 }
